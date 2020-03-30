@@ -66,7 +66,7 @@ conda install notebook ipykernel
 ```
 Enable jupyter notebook to connect to the conda python kernel. 
 ```
-ipython kernel --user --name osaml --display-name "Python (myenv)"
+ipython kernel install --user --name myenv --display-name "Python (myenv)"
 ```
 Add the Azure ML SDK.
 ```
