@@ -71,7 +71,7 @@ ipython kernel install --user --name myenv --display-name "Python (myenv)"
 Add the Azure ML SDK.
 ```
 pip install azureml-sdk[notebooks]
-pip install --user azure-opendatasets
+pip install --user azureml-opendatasets
 ```
 Clone the sample tutorial notebooks and navigate `tutorials` subfolder.
 ```
