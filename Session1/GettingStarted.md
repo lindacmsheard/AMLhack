@@ -1,11 +1,11 @@
 # Getting Started with Azure Maching Learning
 
 ## Agenda
-**morning**
+**Morning**
 
 - 11:00 -12:00 – Overview / Demo of AML key concepts and approach to ML Ops
 
-**afternoon**
+**Afternoon**
 - 13:00 – Intros
 - 13:10 – 13:30:  Hands-on: Focus: get set up with access in AML, orientation, tips for working with AML
 - 13:30 – 13:45  optional Teams Call check-in – any issues?
