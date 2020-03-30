@@ -123,12 +123,14 @@ Databricks-based notebook samples
 Alternatively, databricks can be configured as the compute target:
 - https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/azure-databricks/databricks-as-remote-compute-target/aml-pipelines-use-databricks-as-compute-target.ipynb
 
-
+Exploring distributed inferencing further:
+- https://medium.com/thinkgradient/parallel-inferencing-using-a-fast-ai-model-and-azure-ml-parallelrunstep-d832155f688c
 
 
 
 # Reference Links
-1. [Service Pricing](https://azure.microsoft.com/en-gb/pricing/details/machine-learning/) 
+1. Service Pricing
+    - https://azure.microsoft.com/en-gb/pricing/details/machine-learning/ 
 2.  Configuring your environment
     - https://docs.microsoft.com/en-gb/azure/machine-learning/how-to-configure-environment
     - Alternative notebook-based instructions for configuring environments: https://github.com/Azure/MachineLearningNotebooks/blob/master/configuration.ipynb
@@ -142,8 +144,12 @@ Alternatively, databricks can be configured as the compute target:
     - https://github.com/Azure/MachineLearningNotebooks
 4.  Python SDK Reference
     - https://docs.microsoft.com/en-gb/python/api/overview/azure/ml/?view=azure-ml-py
-5.  Working with your own datasets
+5.  Working with your own datasets in Azure ML
     - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets
+6.  Alternative Cloud Compute (provisioned outside of Azure ML, but can integrate with it)
+    - DSVM: https://azure.microsoft.com/en-us/services/virtual-machines/data-science-virtual-machines/
+    - Azure Notebooks: https://notebooks.azure.com/
+    - combine the two: https://docs.microsoft.com/en-us/azure/notebooks/use-data-science-virtual-machine
 
 
 
