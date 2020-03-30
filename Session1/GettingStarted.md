@@ -3,8 +3,6 @@
 ## Agenda
 11:00 -12:00 – Overview / Demo of AML key features and approach to ML Ops
 
-(Same teams meeting available but optional for afternoon session, feel free to go chat-only)
-
 - 13:00 – Intros: Linda / Luke / Remko
 - 13:10 – 13:30:  Hands-on: Focus: get set up with access in AML, orientation, tips for working with AML
 - 13:30 – 13:45  optional Teams Call check-in – any issues?
