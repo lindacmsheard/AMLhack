@@ -1,9 +1,12 @@
 # Getting Started with Azure Maching Learning
 
 ## Agenda
-11:00 -12:00 – Overview / Demo of AML key features and approach to ML Ops
+**morning**
 
-- 13:00 – Intros: Linda / Luke / Remko
+- 11:00 -12:00 – Overview / Demo of AML key concepts and approach to ML Ops
+
+**afternoon**
+- 13:00 – Intros
 - 13:10 – 13:30:  Hands-on: Focus: get set up with access in AML, orientation, tips for working with AML
 - 13:30 – 13:45  optional Teams Call check-in – any issues?
 - 13:45 – 15:00  Hands-on / self paced guide: Focus: AML basics with tutorials – Python SDK
@@ -38,7 +41,7 @@ https://docs.microsoft.com/en-gb/azure/machine-learning/tutorial-1st-experiment-
 
 ## 1. Working from cloud-based Azure Machine Learning compute
 Use Tutorial 1 to get familiar with working fully in the cloud. In this tutorial, the data prepation, training orchestration and training steps all happen on the AML compute VM. 
-https://docs.microsoft.com/en-gb/azure/machine-learning/tutorial-1st-experiment-sdk-train
+- https://docs.microsoft.com/en-gb/azure/machine-learning/tutorial-1st-experiment-sdk-train
 
 
 ## 2. Working with a local development environment
@@ -51,7 +54,7 @@ Start by creating a conda environment.
 
 > If you don't yet have conda on you system, follow the instructions here: https://gist.github.com/lindacmsheard/928b21764d0fa2c1324804de9e38953e
 
-Then, from your conda base environment:
+From your conda base environment:
 ```
 conda create -n myenv python=3.6.5
 conda activate myenv
@@ -104,6 +107,9 @@ pip install azureml-pipeline-core azureml-contrib-pipeline-steps
 ```
 In the jupyter file tree browser, navigate to the 
 [machine-learning-pipelines-advanced](https://github.com/Azure/MachineLearningNotebooks/tree/master/tutorials/machine-learning-pipelines-advanced) folder.
+
+From your local Jupyter instance that you set up in 2. above, complete the following lab:
+- https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/machine-learning-pipelines-advanced/tutorial-pipeline-batch-scoring-classification.ipynb
 
 
 # Advanced topics
