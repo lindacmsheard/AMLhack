@@ -1,19 +1,5 @@
 # Getting Started with Azure Maching Learning
 
-## Agenda
-**Morning**
-
-- 11:00 -12:00 – Overview / Demo of AML key concepts and approach to ML Ops
-
-**Afternoon**
-- 13:00 – Intros
-- 13:10 – 13:30:  Hands-on: Focus: get set up with access in AML, orientation, tips for working with AML
-- 13:30 – 13:45  optional Teams Call check-in – any issues?
-- 13:45 – 15:00  Hands-on / self paced guide: Focus: AML basics with tutorials – Python SDK
-- 15:00 – 15:15  optional Teams Call check-in – any issues?
-- 15:15 – 16:00  Design session/open discussion: given learnings, what would a follow on hack look like, can we start sharing sample data for it.
-
-
 ## Introduction
 AML has a visual designer mode, and a Python SDK. The availability of these modes depends on the service tier.
 
@@ -73,11 +59,16 @@ Add the Azure ML SDK.
 pip install azureml-sdk[notebooks]
 pip install --user azureml-opendatasets
 ```
+
 Clone the sample tutorial notebooks and navigate `tutorials` subfolder.
 ```
 git clone https://github.com/Azure/MachineLearningNotebooks.git
 cd ./MachineLearningNotebooks/tutorials
 ```
+
+Connect your development environment to your AML instance by downloading the `config.json` file from the portal as per guidance [here](https://docs.microsoft.com/en-gb/azure/machine-learning/how-to-configure-environment#workspace). You can place the file into the tutorials folder, or any parent folder if you would like this config to apply more widely across your projects.
+
+> Note:  When working in an AML Compute VM provisioned from your workspace, such as the one you used in Lab 1 above, the config.json file is pre-loaded into the root directory of the VM to ensure that VM is linked to the Workspace it was provisioned from.
 
 Launch jupyter:
 ```
@@ -85,9 +76,11 @@ jupyter notebook
 ```
 and locate the MNIST tutorial notebooks (`image-classification-mnist-data`) in the jupyter file tree browser. Follow the instructions within the tutotial notebooks.
 
+> TIP: double check the steps you executed above against the pre-requisites specified in each tutorial below. 
+
 - [Part 1 - Train with a cluster](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/image-classification-mnist-data/img-classification-part1-training.ipynb)
 
-> TIP: If you are working within the `image-classification-mnist-data` folder of the cloned repo, rename the provided model pkl file before continuing to part 2
+> TIP: If you are working within the `image-classification-mnist-data` folder of the cloned repo, rename the provided sample model pkl file before continuing to part 2, so that you can distinguish the provided sample from one you will download in Part 1.
 ```
 mv sklearn_mnist_model.pkl sklearn_mnist_model-sample.pkl
 ```
@@ -166,5 +159,7 @@ az login --tenant [tenantid]
 To achieve this when using the device login triggered within a jupyter notebook, clear the browser history. Then use the shell access available in the built-in notebook interface to issue to command above, and refresh the page before running the notebook again.
 
 
-#### Remote VSCode
+#### SSH access to your VM and Remote VSCode
+If you prefer a more native experience when interacting with your cloud VM than the shell access built into the notebook interface in AML, ensure that you select `enable SSH access` when you provision your compute. 
+You can then connect Visual Studio Code to work directly on your VM
 https://code.visualstudio.com/docs/remote/ssh
