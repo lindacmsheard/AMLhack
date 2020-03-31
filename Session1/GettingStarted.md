@@ -79,11 +79,12 @@ and locate the MNIST tutorial notebooks (`image-classification-mnist-data`) in t
 > TIP: double check the steps you executed above against the pre-requisites specified in each tutorial below. 
 
 - [Part 1 - Train with a cluster](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/image-classification-mnist-data/img-classification-part1-training.ipynb)
+    > Note: If your using Microsoft Edge, and not Edge dev or beta, the tutorial video interface may look slightly different. In particular, instead of being able to clone a folder though a three-dot menu on hover to your user folder, you can only clone individual sample notebooks. To do so, open the sample notebook, and then use the blue button above it to clone it and therefore make it editable.
 
-> TIP: If you are working within the `image-classification-mnist-data` folder of the cloned repo, rename the provided sample model pkl file before continuing to part 2, so that you can distinguish the provided sample from one you will download in Part 1.
-```
-mv sklearn_mnist_model.pkl sklearn_mnist_model-sample.pkl
-```
+    > TIP: If you are working within the `image-classification-mnist-data` folder of the cloned repo, rename the provided sample model pkl file before continuing to part 2, so that you can distinguish the provided sample from one you will download in Part 1.
+    ```
+    mv sklearn_mnist_model.pkl sklearn_mnist_model-sample.pkl
+    ```
 - [Part2 - Deploy Model](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/image-classification-mnist-data/img-classification-part2-deploy.ipynb)
 
 
