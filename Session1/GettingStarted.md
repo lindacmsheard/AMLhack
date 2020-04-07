@@ -29,6 +29,7 @@ https://docs.microsoft.com/en-gb/azure/machine-learning/tutorial-1st-experiment-
 Use Tutorial 1 to get familiar with working fully in the cloud. In this tutorial, the data prepation, training orchestration and training steps all happen on the AML compute VM. 
 - https://docs.microsoft.com/en-gb/azure/machine-learning/tutorial-1st-experiment-sdk-train
 
+> Note: if there are any difficulties with the Device Login as a result of logging into the wrong (when working on a tenant that is not your default), review this tip: https://gist.github.com/lindacmsheard/010932f7d3b13246cf340e5f1804d5e6
 
 ## 2. Working with a local development environment
 For the second tutorial, set up a local development environment for data preparation and orchestration. The training step in this tutorial uses a cluster of VMs in the cloud.
