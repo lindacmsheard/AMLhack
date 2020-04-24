@@ -11,6 +11,14 @@ AML has a visual designer mode, and a Python SDK. The availability of these mode
 
 *(Status as of March 2020 - see [here](https://azure.microsoft.com/en-gb/pricing/details/machine-learning/) for full details)*
 
+These labs focus on the python SDK to interact with the capabilities of AML Basic Tier, from either a cloud VM or a local machine.
+
+<img src="./img/AML concepts.jpg" width="800px"/>
+
+## Labs Overview
+
+<img src="./img/AML labs.jpg" width="800px"/>
+
 ## Setup and Provisioning
 
 When creating an instance of AML in your subscription, it will automatically create the following associated services:
