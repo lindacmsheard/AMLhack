@@ -139,9 +139,9 @@ Exploring distributed inferencing further:
 5.  Working with your own datasets in Azure ML
     - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets
 6.  Alternative Cloud Compute (provisioned outside of Azure ML, but can integrate with it)
-    - DSVM: https://azure.microsoft.com/en-us/services/virtual-machines/data-science-virtual-machines/
-    - Azure Notebooks: https://notebooks.azure.com/
-    - combine the two: https://docs.microsoft.com/en-us/azure/notebooks/use-data-science-virtual-machine
+    - https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target
+    - https://www.element61.be/en/resource/how-integrate-azure-databricks-azure-machine-learning-running-big-data-machine-learning
+
 
 
 
