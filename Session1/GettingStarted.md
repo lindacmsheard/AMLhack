@@ -1,12 +1,9 @@
 # Getting Started with Azure Maching Learning
 
-## Introduction
-
-<img src="./img/AML concepts.jpg" width="600px"/>
 
 ## Labs Overview
 
-> These labs focus on the python SDK, interacting with the capabilities of `Azure ML Basic tier`, from either a cloud VM or a local machine.
+> These labs focus on the python SDK, interacting with the capabilities of `Azure ML`, from either a cloud VM or a local machine.
 
 
 <img src="./img/AML labs.jpg" width="600px"/>
