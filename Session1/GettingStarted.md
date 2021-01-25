@@ -1,16 +1,6 @@
 # Getting Started with Azure Maching Learning
 
 ## Introduction
-AML has a visual designer mode, and a Python SDK. The availability of these modes depends on the service tier.
-
-| |Basic | Enterprise |
-|--|--|--|
-| Status| generally available (GA)| Preview|
-| Visual designer|No| Yes|
-| python SDK | Yes | Yes
-
-*(Status as of March 2020 - see [here](https://azure.microsoft.com/en-gb/pricing/details/machine-learning/) for full details)*
-
 
 <img src="./img/AML concepts.jpg" width="600px"/>
 
