@@ -1,5 +1,7 @@
 # Getting Started with Azure Maching Learning
 
+## Introduction
+The goal of the three labs highlighted here is to give a view of the different configurations in which you can use Azure Machine Learning when working with the python SDK.
 
 ## Labs Overview
 
